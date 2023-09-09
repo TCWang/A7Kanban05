@@ -1,4 +1,10 @@
 export default {
+  // gh-pages deploying
+  target: 'static',
+  router: {
+    base: '/A7Kanban05/',
+  },
+
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
     title: 'A7Kanban05',
