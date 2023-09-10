@@ -1,5 +1,7 @@
 <template>
-  <TestPage />
+  <div class="container">
+    <TestPage />
+  </div>
 </template>
 
 <script>
