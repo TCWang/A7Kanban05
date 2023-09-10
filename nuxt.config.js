@@ -21,10 +21,17 @@ export default {
   },
 
   // Global CSS: https://go.nuxtjs.dev/config-css
+  // css: ['bootstrap/dist/css/bootstrap.css'],
   css: [],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
   plugins: [],
+
+  //Locate the css property within the build section & include Bootstrap JavaScript
+  build: {
+    css: ['~/assets/css/bootstrap.scss'],
+    plugins: [{ src: '~/plugins/bootstrap.js', mode: 'client' }],
+  },
 
   // Auto import components: https://go.nuxtjs.dev/config-components
   components: true,

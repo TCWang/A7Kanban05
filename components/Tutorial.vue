@@ -52,7 +52,8 @@
       </a>
       <div class="mt-8 bg-white overflow-hidden shadow sm:rounded-lg p-6">
         <h2 class="text-2xl leading-7 font-semibold">
-          Welcome to your Nuxt Application - Test 3
+          Welcome to your Nuxt Application -
+          <button class="btn btn-primary">Test 4</button>
         </h2>
         <p class="mt-3 text-gray-600">
           We recommend you take a look at the
