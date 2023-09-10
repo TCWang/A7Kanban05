@@ -28,10 +28,12 @@ export default {
   plugins: [],
 
   //Locate the css property within the build section & include Bootstrap JavaScript
-  build: {
-    css: ['~/assets/css/bootstrap.scss'],
-    plugins: [{ src: '~/plugins/bootstrap.js', mode: 'client' }],
-  },
+  // build: {
+  //   css: ['~/assets/css/bootstrap.scss'],
+  //   plugins: [{ src: '~/plugins/bootstrap.js', mode: 'client' }],
+  // },
+
+  script: [{ src: '~/plugins/bootstrap.js', mode: 'client' }],
 
   // Auto import components: https://go.nuxtjs.dev/config-components
   components: true,
