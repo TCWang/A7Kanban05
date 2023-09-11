@@ -54,7 +54,6 @@ export default {
   // },
 
   // script: [{ src: '~/plugins/bootstrap.js', mode: 'client' }],
-  script: [],
 
   // Auto import components: https://go.nuxtjs.dev/config-components
   components: true,
