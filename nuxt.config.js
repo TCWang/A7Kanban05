@@ -17,11 +17,31 @@ export default {
       { hid: 'description', name: 'description', content: '' },
       { name: 'format-detection', content: 'telephone=no' },
     ],
-    link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
+    link: [
+      {
+        rel: 'icon',
+        type: 'image/x-icon',
+        href: '/favicon.ico',
+      },
+      {
+        rel: 'stylesheet',
+        href: '/css/bootstrap.min.css',
+      },
+      {
+        rel: 'stylesheet',
+        href: '/css/custom.css',
+      },
+    ],
+    script: [
+      {
+        src: '/js/bootstrap.bundle.min.js',
+        type: 'text/javascript',
+      },
+    ],
   },
 
   // Global CSS: https://go.nuxtjs.dev/config-css
-  css: ['bootstrap/dist/css/bootstrap.css'],
+  // css: ['bootstrap/dist/css/bootstrap.css'],
   // css: [],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
@@ -33,7 +53,8 @@ export default {
   //   plugins: [{ src: '~/plugins/bootstrap.js', mode: 'client' }],
   // },
 
-  script: [{ src: '~/plugins/bootstrap.js', mode: 'client' }],
+  // script: [{ src: '~/plugins/bootstrap.js', mode: 'client' }],
+  script: [],
 
   // Auto import components: https://go.nuxtjs.dev/config-components
   components: true,
