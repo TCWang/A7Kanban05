@@ -30,10 +30,6 @@ export default {
           'sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9',
         crossorigin: 'anonymous',
       },
-      // {
-      //   rel: 'stylesheet',
-      //   href: '/css/bootstrap.min.css',
-      // },
     ],
     script: [
       {
@@ -42,11 +38,6 @@ export default {
           'sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm',
         crossorigin: 'anonymous',
       },
-      // {
-      //   src: '/js/bootstrap.bundle.min.js',
-      //   type: 'text/javascript',
-      //   mode: 'client',
-      // },
     ],
   },
 
