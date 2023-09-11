@@ -36,6 +36,7 @@ export default {
       {
         src: '/js/bootstrap.bundle.min.js',
         type: 'text/javascript',
+        mode: 'client',
       },
     ],
   },
